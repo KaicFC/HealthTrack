@@ -1,0 +1,115 @@
+body{
+background: linear-gradient(to top left, 
+rgb(15, 49, 110), black);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+min-height: 100vh;
+font-family: 'DM Mono', monospace;
+}
+
+#coracao{
+display: block;
+text-align: center;
+margin: -50px 0px 0px;
+font-size: 50px;
+color: aqua;
+z-index: -2;
+opacity: 0.1;
+}
+
+
+h1{
+margin-top: 5vh;
+text-align: center;
+color: turquoise;
+z-index: 2;
+}
+h2{
+margin-top: 1vh;
+text-align: center;
+font-size: 2em;
+}
+p{
+margin-top: 1em;
+text-align: center;
+font-size: 1em;
+}
+
+
+.formulario{
+margin: 8vh 5px;
+}
+#email{
+width: 100%;
+border: 1px solid transparent;
+border-radius: 15px;
+}
+#senha{
+width: 100%;
+border: 1px solid transparent;
+border-radius: 15px;
+}
+#entrar{
+width: 100%;
+border: 1px solid transparent;
+border-radius: 15px;
+}
+#esqueci{
+color: turquoise;
+}
+
+#cadastrar{
+margin-top: 20px;
+margin-bottom: 5px;
+width: 100%;
+border: 1px solid transparent;
+border-radius: 15px;
+color: white;
+}
+.entrar-com{
+text-align: center;
+color: gray;
+}
+#google{
+width: fit-content;
+margin: auto;
+display: block;
+font-size: 20px;
+padding: 5px;
+color: white;
+}
+#google:hover{
+color: #7bff00;    
+border: 2px solid;
+border-radius: 30px;
+border-color: #7bff00;
+}
+#facebook{
+width: fit-content;
+margin: auto;
+display: block;
+font-size: 20px;
+padding: 5px;
+color: white;
+}
+#facebook:hover{
+color: #7bff00;
+border: 2px solid;
+border-radius: 30px;
+border-color: #7bff00;
+}
+#twitter{
+width: fit-content;
+margin: auto;
+display: block;
+font-size: 20px;
+padding: 5px;
+color: white;
+}
+#twitter:hover{
+color: #7bff00;    
+border: 2px solid;
+border-radius: 30px;
+border-color: #7bff00;
+}

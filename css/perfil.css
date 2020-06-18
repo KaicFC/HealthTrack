@@ -1,0 +1,39 @@
+body{
+background: linear-gradient(to top left, 
+rgb(15, 49, 110), black);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+min-height: 100vh;
+font-family: 'DM Mono', monospace;
+}
+
+
+.imagem{
+width: 150px;
+height: 150px;
+margin: 30px auto 5px;
+display: block;
+}
+.alterar{
+font-size: 15px;
+text-align: center;
+margin-bottom: 10px;
+color: #0ae9e9;
+}
+.alterar:hover {
+color: #4bff04;
+}
+.nome{
+font-size: 30px;
+text-align: center;
+margin-bottom: 15px;
+}
+#salvar{
+margin-top: 2em;
+margin-bottom: 3em;
+width: 100%;
+}
+
+
+

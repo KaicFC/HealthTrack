@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/cadastrar.css">
+
+  <title>Cadastrar</title>
+</head>
+
+<body>
+
+  <h1>Health Track</h1>
+  <i class='fas fa-heartbeat' id="coracao"></i>
+
+  <h2>Seja Bem-vindo</h2>
+  <p>Cadastre-se para gerenciar sua saúde!</p>
+
+  <div class="container">
+
+    <form>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputNome">Nome</label>
+          <input typ="name" class="form-control" id="nome" placeholder="Ex: Tony Stark">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputAddress">E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="stark@avengers.com">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputSenha">Senha</label>
+          <input type="password" class="form-control" id="senha">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputRepitaSenha">Repita a senha</label>
+          <input type="password" class="form-control" id="repitaSenha">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Lembrar usuário
+          </label>
+        </div>
+      </div>
+
+    </form>
+
+    <a href="login.html">
+      <button type="submit" class="btn btn-primary" id="entrar">Salvar</button>
+    </a>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

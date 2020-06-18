@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+
+    <script src="/js/dashboard.js"></script>
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/saude.css">
+
+
+    <title>Saúde</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                        <div class="campos">
+
+                            <a href="perfil.html" id="perfil">
+                                <img src="/imgs/tony.jpg" class="rounded-circle" alt="Perfil" id="foto">
+                                Alterar perfil
+                            </a>
+
+                            <a href="dashboard.html" id="dashboard">
+                                <i class='fas fa-home'></i>
+                                Dashboard
+                            </a>
+                            <hr>
+                            <a href="treinos.html" id="treinos">
+                                <i class='fas fa-dumbbell'></i>
+                                Treinos
+                            </a>
+                            <a href="alimentacao.html" id="alimentacao">
+                                <i class='fas fa-utensils'></i>
+                                Alimentação
+                            </a>
+                            <a href="saude.html" id="saude">
+                                <i class='fas fa-heartbeat'></i>
+                                Saúde
+                            </a>
+                            <a href="sono.html" id="sono">
+                                <i class='fas fa-bed'></i>
+                                Sono
+                            </a>
+                            <a href="imc.html" id="imc">
+                                <i class='fas fa-weight'></i>
+                                IMC
+                            </a>
+                            <hr>
+                            <a href="planos.html" id="planos">
+                                <i class='fas fa-credit-card'></i>
+                                Planos
+                            </a>
+                            <a href="#" id="sincronizar">
+                                <i class='fas fa-sync-alt'></i>
+                                Sincronizar
+                            </a>
+                            <a href="#" id="configuracoes">
+                                <i class='fas fa-cog'></i>
+                                Configurações
+                            </a>
+                            <hr>
+                            <a href="Login.html" id="sair">
+                                <i class='fas fa-sign-out-alt'></i>
+                                Sair
+                            </a>
+                        </div>
+                    </div>
+
+                    <span onclick="openNav()">
+                        <i class='fas fa-stream' id="iconMenu"></i>
+                    </span>
+                </div>
+                <div class="logo col-8"> SAÚDE
+                    <i class='fas fa-heartbeat' id="coracao"></i>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="container-fluid">
+
+            <div class="cabecalho">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="#">
+                            <i class='fas fa-stethoscope' id="play"></i>
+                            <div class="acao">
+                                Frequência
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <i class='fas fa-heartbeat' id="adicionar"></i>
+                            <div class="acao">
+                                Pressão
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <i class='far fa-grin-beam' id="humor"></i>
+                            <div class="acao">
+                                Humor
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#">
+                            <i class='far fa-calendar-alt' id="calendar"></i>
+                            <div class="acao">
+                                Consultar
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!------------------------------------------------TAB------------------------------------------------------------------->
+            <div class="row">
+
+                
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-header pressao">PRESSÃO
+                            <br>
+                            <div class="data">06/06 15:45</div>
+                        </div>
+                        <div class="card-body">
+
+                            <table>
+                                <tr>
+                                    <th>Max.</th>
+                                    <th>Mín.</th>
+                                    <th>Leitura</th>
+                                    <th>Situação</th>
+                                </tr>
+                                <tr>
+                                    <td>125</td>
+                                    <td>80</td>
+                                    <td>12/8</td>
+                                    <td>Normal</td>
+                                </tr>
+                            </table>
+
+                            <div class="saude-icon">
+                                <i class='fas fa-star' id="star"></i>
+                                <i class='fas fa-trash' id="trash"></i>
+                                <i class='fas fa-share' id="share"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-header frequencia">FREQUÊNCIA CARDÍACA
+                            <br>
+                            <div class="data">06/06 15:40</div>
+                        </div>
+                        <div class="card-body">
+
+                            <table>
+                                <tr>
+                                    <th>Média</th>
+                                    <th>Max.</th>
+                                    <th>Mín.</th>
+                                    <th>Situação</th>
+                                </tr>
+                                <tr>
+                                    <td>90</td>
+                                    <td>100</td>
+                                    <td>80</td>
+                                    <td>Normal</td>
+                                </tr>
+                            </table>
+
+                            <div class="saude-icon">
+                                <i class='fas fa-star' id="star"></i>
+                                <i class='fas fa-trash' id="trash"></i>
+                                <i class='fas fa-share' id="share"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-header humor">HUMOR
+                            <br>
+                            <div class="data">06/06 15:30</div>
+                        </div>
+                        <div class="card-body">
+
+                            <table>
+                                <tr>
+                                    <th>Nível</th>
+                                    <th>Situação</th>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Feliz</td>
+                                </tr>
+                            </table>
+
+                            <div class="saude-icon">
+                                <i class='fas fa-star' id="star"></i>
+                                <i class='fas fa-trash' id="trash"></i>
+                                <i class='fas fa-share' id="share"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <div class="card-header pressao">PRESSÃO
+                            <br>
+                            <div class="data">06/06 15:45</div>
+                        </div>
+                        <div class="card-body">
+
+                            <table>
+                                <tr>
+                                    <th>Max.</th>
+                                    <th>Mín.</th>
+                                    <th>Leitura</th>
+                                    <th>Situação</th>
+                                </tr>
+                                <tr>
+                                    <td>125</td>
+                                    <td>80</td>
+                                    <td>12/8</td>
+                                    <td>Normal</td>
+                                </tr>
+                            </table>
+
+                            <div class="saude-icon">
+                                <i class='fas fa-star' id="star"></i>
+                                <i class='fas fa-trash' id="trash"></i>
+                                <i class='fas fa-share' id="share"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+
+
+            </div>
+
+            <!------------------------------------------------TAB------------------------------------------------------------------->
+
+        </div>
+
+    </main>
+    <footer>
+
+
+    </footer>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

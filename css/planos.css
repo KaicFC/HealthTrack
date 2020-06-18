@@ -1,0 +1,62 @@
+body{
+background: linear-gradient(to top left, 
+rgb(15, 49, 110), black);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+min-height: 100vh;
+font-family: 'DM Mono', monospace;
+}
+
+
+.planos{
+text-align: center;
+margin-top: 10px;
+font-size: 20px;
+}
+#free{
+width: fit-content;
+margin: 5px auto;
+display: block;
+font-size: 30px;
+padding: 10px;
+color: #0ae9e9;
+}
+#free:hover{
+color: #7bff00;    
+border: 2px solid;
+border-radius: 30px;
+border-color: #7bff00;
+}
+#premium{
+width:fit-content;
+margin: 5px auto;
+display: block;
+font-size: 30px;
+padding: 10px;
+color: #0ae9e9;
+
+}
+#premium:hover{
+color: #7bff00;
+border: 2px solid;
+border-radius: 30px;
+border-color: #7bff00;
+}
+.acao{
+font-family: initial;
+margin-top: -10px;
+font-size: 15px;
+text-align: center;
+color: #26fd99;
+}
+
+.dados{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+#salvar{
+    width: 100%;
+    margin-top: 20px;
+}

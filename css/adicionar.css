@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(to top left, 
+    rgb(15, 49, 110), black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    font-family: 'DM Mono', monospace;
+}
+
+.form-row{
+    margin: 50px 10px;
+}
+#adicionar{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}

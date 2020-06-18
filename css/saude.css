@@ -1,0 +1,153 @@
+body{
+background: linear-gradient(to top left, 
+rgb(15, 49, 110), black);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+min-height: 100vh;
+font-family: 'DM Mono', monospace;
+}
+
+
+h1{
+font-size: 30px;
+text-align: center;
+margin: 20px 10px 10px;
+}
+
+#adicionar{
+width:fit-content;
+margin: 10px auto;
+display: block;
+font-size: 20px;
+padding: 10px;
+color: #0ae9e9;
+
+}
+#adicionar:hover{
+color: #7bff00;
+border: 2px solid;
+border-radius: 30px;
+border-color: #7bff00;
+}
+#play{
+  width: fit-content;
+  margin: 10px auto;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  color: #0ae9e9;
+}
+#play:hover{
+  color: #7bff00;    
+  border: 2px solid;
+  border-radius: 30px;
+  border-color: #7bff00;
+}
+#humor{
+  width: fit-content;
+  margin: 10px auto;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  color: #0ae9e9;
+}
+#humor:hover{
+  color: #7bff00;    
+  border: 2px solid;
+  border-radius: 30px;
+  border-color: #7bff00;
+}
+#calendar{
+  width: fit-content;
+  margin: 10px auto;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  color: #0ae9e9;
+}
+#calendar:hover{
+  color: #7bff00;    
+  border: 2px solid;
+  border-radius: 30px;
+  border-color: #7bff00;
+}
+
+.acao{
+font-family: initial;
+margin-top: -15px;
+margin-bottom: 20px;
+font-size: 12px;
+text-align: center;
+color: #0ae9e9;
+opacity: 0.5;
+}
+.card{
+margin: 10px;
+border: 2px solid #7bff00;
+border-radius: 5px;
+}
+.card-header{
+font-size: 17px;
+text-align: center;
+color: black;
+}
+.card-body{
+font-size: 14px;
+color:blue;
+}
+.data{
+font-size: 12px;
+margin-bottom: -10px;
+}
+
+.frequencia{
+background-color: #90f08c;
+}
+.pressao{
+background-color: rgb(235, 126, 126);
+}
+.humor{
+background-color: rgb(91, 106, 247);
+}
+
+table{
+width: 100%;
+}
+th{
+font: bold;
+font-size: 15px;
+text-align: center;
+padding-bottom: 10px;
+border-bottom: 1px solid #ddd;
+}
+td{
+font-size: 15px;
+text-align: center;
+color: black;
+border-bottom: 1px solid #ddd;
+}
+.saude-icon{
+text-align: center;
+}
+#star{
+font-size: 15px;
+margin: 15px 20px 0px;
+}
+#star:hover{
+  color: #7bff00;
+}
+#trash{
+font-size: 15px;
+margin: 10px 20px 0px;
+}
+#trash:hover{
+  color: #7bff00;
+}
+#share{
+font-size: 15px;
+margin: 10px 20px 0px;
+}
+#share:hover{
+  color: #7bff00;
+}

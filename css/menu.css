@@ -1,0 +1,97 @@
+header{
+  background-color: black;
+  }
+  #coracao{
+  display: block;
+  text-align: center;
+  margin-top: -25px;
+  font-size: 30px;
+  color: aqua;
+  z-index: -2;
+  opacity: 0.2;
+  }
+  .logo{
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+  color:#0ae9e9;
+  }
+  
+  
+  /*************Sidenav***************/
+  
+  .sidenav {
+  height: 100%; 
+  width: 0px;
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+  }
+  
+  .sidenav a {
+  padding: 10px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #0ae9e9;
+  display: block;
+  transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+  color: #54e719;
+  }
+  
+  .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+  }
+  
+  /********************************Menu***********************************/
+  
+  #iconMenu{
+  margin: 5px 1px;
+  font-size: 5vh;
+  color: #0ae9e9;
+  }
+  #iconMenu:hover {
+  color: #4bff04;
+  }
+  .campos:hover {
+  color: #4bff04;
+  }
+  
+  #foto{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: block;
+  border: 2px solid white;
+  }
+  
+  #perfil{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 5px;
+  color: rgb(53, 48, 48);
+  }
+  #perfil:hover{
+  color: #4bff04;
+  }
+  #nome{
+  color: #4bff04;
+  }
+  hr{
+    border: 1px solid;
+    margin: 3px 10px;
+    color: #021a1a;
+  }
+  
+  
+  
